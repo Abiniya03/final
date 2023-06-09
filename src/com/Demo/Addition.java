@@ -8,6 +8,13 @@ public class Addition {
 	
 	String name;
 	int age;
+	int a;
+	int b;
+	
+	public void add() {
+		
+	}
+	
 	@RequestMapping("/")
 	public void add() {
 		int fnum=Integer.parseInt("10");
