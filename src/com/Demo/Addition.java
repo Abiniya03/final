@@ -6,6 +6,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class Addition {
 	
+	String name;
+	int age;
 	@RequestMapping("/")
 	public void add() {
 		int fnum=Integer.parseInt("10");
